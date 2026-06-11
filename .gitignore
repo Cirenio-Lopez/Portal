@@ -1,0 +1,13 @@
+claude.exe
+*.log
+
+.venv/
+litellm/.venv/
+__pycache__/
+*.py[cod]
+
+litellm/.env
+litellm/proxy.log
+
+dist/
+build/

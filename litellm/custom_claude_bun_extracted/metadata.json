@@ -1,0 +1,278 @@
+{
+  "input": "claude.exe",
+  "input_size": 244181152,
+  "input_sha256": "07132ca4bbef551c92c1ae6ca0220a5e523092c9fa9cf402f65f428450687455",
+  "pe": {
+    "machine": 34404,
+    "section_count": 12,
+    "characteristics": 34,
+    "sections": [
+      {
+        "index": 0,
+        "name": ".text",
+        "virtual_size": 63056874,
+        "virtual_address": 4096,
+        "raw_size": 63056896,
+        "raw_offset": 1024
+      },
+      {
+        "index": 1,
+        "name": ".rdata",
+        "virtual_size": 38777528,
+        "virtual_address": 63062016,
+        "raw_size": 38777856,
+        "raw_offset": 63057920
+      },
+      {
+        "index": 2,
+        "name": ".data",
+        "virtual_size": 3119688,
+        "virtual_address": 101842944,
+        "raw_size": 190976,
+        "raw_offset": 101835776
+      },
+      {
+        "index": 3,
+        "name": ".pdata",
+        "virtual_size": 1060200,
+        "virtual_address": 104964096,
+        "raw_size": 1060352,
+        "raw_offset": 102026752
+      },
+      {
+        "index": 4,
+        "name": ".fptable",
+        "virtual_size": 256,
+        "virtual_address": 106024960,
+        "raw_size": 512,
+        "raw_offset": 103087104
+      },
+      {
+        "index": 5,
+        "name": ".tls",
+        "virtual_size": 72817,
+        "virtual_address": 106029056,
+        "raw_size": 73216,
+        "raw_offset": 103087616
+      },
+      {
+        "index": 6,
+        "name": "_RDATA",
+        "virtual_size": 500,
+        "virtual_address": 106102784,
+        "raw_size": 512,
+        "raw_offset": 103160832
+      },
+      {
+        "index": 7,
+        "name": "__DATA,_",
+        "virtual_size": 16384,
+        "virtual_address": 106106880,
+        "raw_size": 16384,
+        "raw_offset": 103161344
+      },
+      {
+        "index": 8,
+        "name": "__DATA,_",
+        "virtual_size": 16384,
+        "virtual_address": 106123264,
+        "raw_size": 16384,
+        "raw_offset": 103177728
+      },
+      {
+        "index": 9,
+        "name": ".rsrc",
+        "virtual_size": 199940,
+        "virtual_address": 106139648,
+        "raw_size": 200192,
+        "raw_offset": 103194112
+      },
+      {
+        "index": 10,
+        "name": ".reloc",
+        "virtual_size": 214884,
+        "virtual_address": 106340352,
+        "raw_size": 215040,
+        "raw_offset": 103394304
+      },
+      {
+        "index": 11,
+        "name": ".bun",
+        "virtual_size": 140561228,
+        "virtual_address": 106557440,
+        "raw_size": 140561408,
+        "raw_offset": 103609344
+      }
+    ],
+    "bun_section": {
+      "index": 11,
+      "name": ".bun",
+      "virtual_size": 140561228,
+      "virtual_address": 106557440,
+      "raw_size": 140561408,
+      "raw_offset": 103609344
+    }
+  },
+  "bun": {
+    "payload_length": 140561220,
+    "trailer_offset": 140561204,
+    "offsets_offset": 140561172,
+    "byte_count": 140561172,
+    "modules_offset": 140560911,
+    "modules_length": 260,
+    "module_count": 5,
+    "entry_point_id": 0,
+    "compile_exec_argv": "",
+    "flags": {
+      "raw": 15,
+      "disable_default_env_files": true,
+      "disable_autoload_bunfig": true,
+      "disable_autoload_tsconfig": true,
+      "disable_autoload_package_json": true
+    }
+  },
+  "modules": [
+    {
+      "index": 0,
+      "entry_point": true,
+      "name": "B:/~BUN/root/src/entrypoints/cli.js",
+      "contents_ptr": {
+        "offset": 121687224,
+        "length": 16851812
+      },
+      "sourcemap_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "bytecode_ptr": {
+        "offset": 120,
+        "length": 121687032
+      },
+      "module_info_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "bytecode_origin_path": "B:/~BUN/root/src/entrypoints/cli.js",
+      "encoding": "latin1",
+      "loader": "js",
+      "module_format": "cjs",
+      "side": "server",
+      "contents_path": "claude_extracted\\files\\root\\src\\entrypoints\\cli.js",
+      "contents_sha256": "9f1fd35e7b8705daab9afe1811b3642632f1f274d433b4f8f9dbcff71cd36f97",
+      "bytecode_path": "claude_extracted\\artifacts\\root\\src\\entrypoints\\cli.js.bytecode.bin",
+      "bytecode_sha256": "f179e963b34ea4381e7fe13f6ce1f58201347d831c3911e9c23fd14b0fabf845"
+    },
+    {
+      "index": 1,
+      "entry_point": false,
+      "name": "B:/~BUN/root/image-processor.js",
+      "contents_ptr": {
+        "offset": 138539069,
+        "length": 1976
+      },
+      "sourcemap_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "bytecode_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "module_info_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "bytecode_origin_path": "",
+      "encoding": "latin1",
+      "loader": "js",
+      "module_format": "cjs",
+      "side": "server",
+      "contents_path": "claude_extracted\\files\\root\\image-processor.js",
+      "contents_sha256": "efe1bc09c904153ccf5a2999657f357b239c31378bc8c56b16a49b87f4c3388a"
+    },
+    {
+      "index": 2,
+      "entry_point": false,
+      "name": "B:/~BUN/root/audio-capture.js",
+      "contents_ptr": {
+        "offset": 138541076,
+        "length": 1974
+      },
+      "sourcemap_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "bytecode_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "module_info_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "bytecode_origin_path": "",
+      "encoding": "latin1",
+      "loader": "js",
+      "module_format": "cjs",
+      "side": "server",
+      "contents_path": "claude_extracted\\files\\root\\audio-capture.js",
+      "contents_sha256": "65ca2057b178fb536116fd444bbbf90ef34f9f5b09ca02b3eec09ee0e3e517a4"
+    },
+    {
+      "index": 3,
+      "entry_point": false,
+      "name": "B:/~BUN/root/image-processor.node",
+      "contents_ptr": {
+        "offset": 138543085,
+        "length": 1510912
+      },
+      "sourcemap_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "bytecode_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "module_info_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "bytecode_origin_path": "",
+      "encoding": "binary",
+      "loader": "napi",
+      "module_format": "none",
+      "side": "client",
+      "contents_path": "claude_extracted\\files\\root\\image-processor.node",
+      "contents_sha256": "70cf483b8286b5859833f64ee0624afbefb7b14be8de119920d26402d054ee61"
+    },
+    {
+      "index": 4,
+      "entry_point": false,
+      "name": "B:/~BUN/root/audio-capture.node",
+      "contents_ptr": {
+        "offset": 140054030,
+        "length": 506880
+      },
+      "sourcemap_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "bytecode_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "module_info_ptr": {
+        "offset": 0,
+        "length": 0
+      },
+      "bytecode_origin_path": "",
+      "encoding": "binary",
+      "loader": "napi",
+      "module_format": "none",
+      "side": "client",
+      "contents_path": "claude_extracted\\files\\root\\audio-capture.node",
+      "contents_sha256": "d20f69cdc31d4684663da70301fffe027cd727369c922bf03b31b0bbb34116cf"
+    }
+  ]
+}
