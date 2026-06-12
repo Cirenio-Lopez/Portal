@@ -1,0 +1,2 @@
+import{v as e}from"./app-server-manager-signals-DWk_M8GO.js";import{c as t,l as n,t as r}from"./app-scope-DrEO_-1u.js";var i=n(r,(e,{get:t})=>!1),a=t(r,({get:t})=>t(i,t(e)));export{i as n,a as t};
+//# sourceMappingURL=appshot-availability-BxiODg_e.js.map

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "source_name": "codex.exe",
+  "size": 280658224,
+  "sha256": "e9cfb13835f5feb25100b4cd33e47a3a707daf68013e229a008c73202f84400f",
+  "chunk_size": 47185920,
+  "mode": "777",
+  "chunks": [
+    {
+      "file": "part-0001.bin",
+      "size": 47185920,
+      "sha256": "d5c49d051cb63c5f10eb808faa4e61314c04485528576e8d40aa4114880534e6"
+    },
+    {
+      "file": "part-0002.bin",
+      "size": 47185920,
+      "sha256": "39b3e0fd02de8c6db7e3c9829b70f83a2d089c163d418a147acc286983cd1393"
+    },
+    {
+      "file": "part-0003.bin",
+      "size": 47185920,
+      "sha256": "999c4fd2aca854aecb46e668d2db642b64a4c07fd021f174bd4c48b7f9e41c23"
+    },
+    {
+      "file": "part-0004.bin",
+      "size": 47185920,
+      "sha256": "2b01190b42c2de60bfa8f8a328af3d1af530e413e10cdf09266437be35d2af25"
+    },
+    {
+      "file": "part-0005.bin",
+      "size": 47185920,
+      "sha256": "c62ac8d7b4f2b78e150258788b2ca8bbc3e6c7d05bc09f749e30ea83a348e501"
+    },
+    {
+      "file": "part-0006.bin",
+      "size": 44728624,
+      "sha256": "485d62e1f0a6f407a1849df124ead9e0c17f84dbd571d1e761adc7a9b9d11df3"
+    }
+  ]
+}

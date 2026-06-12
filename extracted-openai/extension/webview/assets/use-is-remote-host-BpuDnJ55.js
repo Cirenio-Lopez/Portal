@@ -1,0 +1,2 @@
+import{cs as e,v as t}from"./app-server-manager-signals-DWk_M8GO.js";import{s as n}from"./app-scope-DrEO_-1u.js";function r(){return e(n(t)).kind!==`local`}export{r as t};
+//# sourceMappingURL=use-is-remote-host-BpuDnJ55.js.map

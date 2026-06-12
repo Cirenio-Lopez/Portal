@@ -1,0 +1,2 @@
+import{t as e}from"./app-scope-DrEO_-1u.js";import{a as t,u as n}from"./vscode-api-BQyiA7Nu.js";var r=t(e,`extension-info`,{staleTime:n.INFINITE});export{r as t};
+//# sourceMappingURL=extension-info-CLtV-nHS.js.map

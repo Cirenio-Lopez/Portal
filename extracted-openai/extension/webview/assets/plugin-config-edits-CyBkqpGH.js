@@ -1,0 +1,2 @@
+import{Gn as e,Kn as t,Yn as n,Zn as r,gt as i,qn as a}from"./src-BZEwW6Pk.js";`${r}${t}`;var o=`${e}@${t}`;function s(e){let t=i(e);if(!(t==null||!n(t)))return a(e.slice(0,e.length-t.length-1))}function c({pluginId:e,enabled:t}){return[{keyPath:`plugins.${e}.enabled`,value:t,mergeStrategy:`upsert`}]}export{c as n,s as r,o as t};
+//# sourceMappingURL=plugin-config-edits-CyBkqpGH.js.map

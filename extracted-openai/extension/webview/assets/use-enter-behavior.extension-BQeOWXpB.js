@@ -1,0 +1,2 @@
+import{w as e}from"./src-BZEwW6Pk.js";import{t}from"./compiler-runtime-b9_ems4H.js";import{a as n}from"./setting-storage-wPWjeGKo.js";var r=t();function i(){let t=(0,r.c)(2),i=n(e.composerEnterBehavior),a;return t[0]===i?a=t[1]:(a={enterBehavior:i},t[0]=i,t[1]=a),a}export{i as t};
+//# sourceMappingURL=use-enter-behavior.extension-BQeOWXpB.js.map

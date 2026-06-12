@@ -1,0 +1,2 @@
+import{Ta as e}from"./app-server-manager-signals-DWk_M8GO.js";import{a as t}from"./app-scope-DrEO_-1u.js";function n(n){return t(e,n)}export{n as t};
+//# sourceMappingURL=use-global-state-C9phasje.js.map

@@ -1,0 +1,2 @@
+import{c as e,p as t,t as n}from"./app-scope-DrEO_-1u.js";import{u as r}from"./vscode-api-BQyiA7Nu.js";import{o as i}from"./statsig-xCsfi4No.js";import{t as a}from"./request-36xc24Wo.js";t(n,({get:e})=>({enabled:!1,queryKey:[`appgen`,`access`],queryFn:()=>a.safeGet(`/wham/sites/access`),retry:!1,staleTime:r.TEN_MINUTES}));var o=e(n,({get:e})=>`unavailable`);function s(){let e=i(`637432221`),t=i(`1741944562`);return e&&t}export{s as n,o as t};
+//# sourceMappingURL=appgen-gating-BDMqVOGh.js.map
